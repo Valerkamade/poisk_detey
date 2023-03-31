@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p {
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+}
+
+h1 {
+    color: red;
+    font-size: 124px;
+    font-weight: 400;
+    height: 160px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 160px;
+}
+
+body {
+    padding: 35px;
+
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 1200px;
+    height: 1650px;
+    margin: 35px;
+    box-shadow: 3px 3px 20px 5px rgba(125, 20, 55, 0.25);
+}
+
+.loss {
+        font-size: 50px;
+    text-align: center;
+    background-color: #CCD2EC;
+}
+
+.loss p {
+    font-weight: 400;
+    margin: 0 25px;
+    
+}
+
+.loss_info {
+    display: flex;
+    height: 775px;
+    margin: 0 25px;
+justify-content: space-between;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 645px;
+    font-size: 42px;
+}
+
+.info b {
+    color: red;
+}
+
+.important {
+    text-transform: uppercase;
+}
+
+.photo-number img {
+    width: 480px;
+    border-radius: 50px;
+}
+
+.number-party {
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.name-loss{
+    font-size: 60px;
+}
+
+
+.serch {
+    width: 345px;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+.suport {
+    display: flex;
+    background-color: #15297C;
+    color: white;
+    height: 240px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+}
+
+.site {
+    font-size: 32px;
+}
+
+.mvd img {
+    width: 300px;
+    vertical-align: middle;
+}
+
+.poiskdetei img {
+    width: 240px;
+    vertical-align: middle;
+}
+
+.poiskdetei_emb img {
+    width: 205px;
+    vertical-align: middle;
+}
